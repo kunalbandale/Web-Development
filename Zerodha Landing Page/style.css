@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* margin: 15px;  */
+    box-shadow: 2px 1px 2px #eee;
+   
+}
+
+.child-1 img {
+    width: 30%;
+}
+
+.child-2 a {
+    font-size: 20px;
+    padding: 20px;
+    font-size: .9rem;
+    color: #505050;
+    text-decoration: none;
+   
+}
+
+.body div{
+    font-weight: 400;
+    color: #666;
+    display: flex;
+   justify-content: center;
+}
+
+.body-child-1 img {
+    width: 85%;
+}
+
+.body-child-4 button {
+    margin: 25px;
+    padding: 10px 30px;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 3px;
+}
